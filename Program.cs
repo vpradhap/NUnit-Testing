@@ -4,6 +4,7 @@ Console.WriteLine("\n\tN-Unit Testing Programs\n");
 Console.WriteLine("0 - Enter Zero to Exit ");
 Console.WriteLine("1 - Day of Week Program");
 Console.WriteLine("2 - Temperature Conversion Program");
+Console.WriteLine("3 - Calculating Monthly Payment Program");
 
 int flag = 0;
 while (flag == 0)
@@ -20,6 +21,9 @@ while (flag == 0)
             break;
         case 2:
             TemperatureConversion.Temperature();
+            break;
+        case 3:
+            MonthlyPayment.Payment();
             break;
         default:
             Console.WriteLine("Invalid Pick");
